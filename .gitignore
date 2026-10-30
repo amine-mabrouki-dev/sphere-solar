@@ -1,0 +1,36 @@
+.pio
+.vscode
+mobile/node_modules
+mobile/.expo
+mobile/.expo-shared
+mobile/dist
+mobile/build
+mobile/.env     
+
+# backend secrets & local database
+backend/.env
+backend/solar.db
+backend/solar.db-shm
+backend/solar.db-wal
+
+# broker secrets (private keys, password file)
+broker/certs/
+broker/passwd
+backend/.venv
+backend/app/__pycache__
+backend/app/api/__pycache__
+
+# venv Windows (Python 3.12) et artefacts
+backend/venv
+backend/venv_py315_old
+backend/.pytest_cache
+backend/tests/__pycache__
+backend/scripts/__pycache__
+mobile/dist
+reports/
+
+# bases SQLite (racine + copies de test)
+/solar.db
+/solar.db-shm
+/solar.db-wal
+_integration/
